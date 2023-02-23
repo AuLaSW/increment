@@ -1,6 +1,6 @@
 """
 __init__ for the increment module
 """
-from . import increment
+from .increment import increment
 
 __all__ = ["increment"]
