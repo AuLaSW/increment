@@ -39,6 +39,13 @@ class Increment:
         """
         self._val = self._start
         return self._val
+    
+    @property
+    def val(self):
+        """
+        Return the current value for assignment operators
+        """
+        return self._val
         
 
 if __name__ == "__main__":
